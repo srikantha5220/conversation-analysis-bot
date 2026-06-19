@@ -42,12 +42,17 @@ source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+### 4. Install numpy
 
-### 4. Prepare the dataset
+```bash
+pip install numpy pandas scikit-learn streamlit textblob
+```
+
+### 5. Prepare the dataset
 
 Place `cs_conversations.csv` in the project root directory. See [dataset_instructions.md](dataset_instructions.md) for format requirements.
 
-### 5. Run the application
+### 6. Run the application
 
 **CLI (reports in terminal):**
 ```bash
