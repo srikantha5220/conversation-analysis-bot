@@ -71,7 +71,6 @@ See `README.md` for quick start instructions. Key commands:
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-pip install numpy pandas scikit-learn streamlit textblob
 python app.py         # CLI reports
 streamlit run app.py  # UI
 ```

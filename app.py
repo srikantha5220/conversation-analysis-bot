@@ -705,7 +705,7 @@ def run_streamlit_interface() -> None:
     else:
         st.header("Question answer")
         if not question.strip():
-            st.info("Enter a question in the sidebar .")
+            st.info("Enter a question in the sidebar.")
         else:
             st.markdown(bot.answer(question))
 
@@ -754,8 +754,8 @@ def main() -> None:
     if question:
         print(bot.answer(question))
         return
-# this is the edited change 
-    print("Conversation Analysis Bot loaded successfully yeahh!!.")
+
+    print("Conversation Analysis Bot loaded successfully.")
     print(f"Conversations: {bot.conversations.shape[0]} | Turns: {bot.turns.shape[0]}")
     print()
     print(bot.format_top_negative_topics())
